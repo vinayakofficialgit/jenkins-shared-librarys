@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Demo') {
             steps {
-                myFunction('World')  // Calling the shared function
+                    myFunction('World')  // Calling the shared function
             }
         }
     }
